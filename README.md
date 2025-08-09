@@ -1,6 +1,6 @@
 # Tracking and Evaluating Air Quality Trends in Bangalore
 
-Air pollution is the second leading cause of death and the top environmental contributor to fatalities worldwide, responsible for over 8 million deaths in 2021. The effects of air pollution are everywhere, even though we can’t see them with the naked eye. From birth defects to respiratory illnesses, it impacts us in ways we may not even realize. As living beings on this planet, we have the right to breathe clean air—air that doesn’t harm or make us sick.
+Air pollution is the second leading cause of death and the top environmental contributor to fatalities worldwide, responsible for over 8 million deaths in 2021. The effects of air pollution are everywhere, even though we can’t see them with the naked eye. From birth defects to respiratory illnesses, it impacts us in ways we may not even realize. As living beings on this planet, we have the right to breathe clean air.
 
 I took up this project because I am passionate about studying and advocating for a healthy and clean environment—a birthright of every living being, including the plants and trees that surround us. I firmly believe in the saying: **"We do not inherit the Earth from our ancestors; we borrow it from our children."**
 
@@ -48,10 +48,10 @@ Assigned the highest weight because PM2.5 is harmful even at low concentrations.
 Due to data limitations, I implemented two approaches to evaluate air quality trends:
 
 *Subset Analysis:*
-Focused on areas with consistent data across selected years (e.g., 2018–2025). This method ensures accuracy but excludes areas with incomplete data.
+Focused on locations with consistent data across selected years (e.g., 2018–2025). This method ensures accuracy but excludes areas with incomplete data.
 
 *Imputation:*
-For areas with missing data in certain years, I used imputation techniques to estimate pollutant values. This method includes more areas but introduces assumptions about missing data.
+For loactions with missing data in certain years, I used imputation techniques to estimate pollutant values. This method includes more locations but introduces assumptions about missing data.
 
 **Subset Analysis Result**
 
@@ -84,6 +84,6 @@ For areas with missing data in certain years, I used imputation techniques to es
 | Kasturi Nagar, Bengaluru - KSPCB         | 13.980         | Hazardous     |
 
 
-In the subset analysis, areas like Hombegowda Nagar, Jayanagar 5th Block, and Bapuji Nagar were identified as having "Good" air quality, while Hebbal, Silk Board, and BTM Layout (CPCB) exhibited "Hazardous" conditions. The imputation analysis, which addressed gaps in the dataset, expanded the scope of the evaluation, identifying additional "Good" areas like Shivapura_Peenya and additional "Hazardous" areas like BWSSB Kadabesanahalli (both CPCB and KSPCB) and Kasturi Nagar. Notably, even after imputing missing data, the areas previously classified as "Hazardous" in the subset analysis—such as Hebbal, Silk Board, and BTM Layout (CPCB)—remained in the "Hazardous" category. This consistency underscores the persistent air quality challenges in these zones and highlights the critical need for focused interventions.
+In the subset analysis, locations like *Hombegowda Nagar*, *Jayanagar 5th Block* and *Bapuji Nagar* were identified as having "Good" air quality, while *Hebbal*, *Silk Board*, and *BTM Layout (CPCB)* exhibited "Hazardous" conditions. The imputation analysis, which addressed gaps in the dataset, expanded the scope of the evaluation, identifying additional "Good" locations like *Shivapura_Peenya* and additional "Hazardous" locations like *BWSSB Kadabesanahalli (both CPCB and KSPCB)* and *Kasturi Nagar*. Notably, even after imputing missing data, the locations previously classified as "Hazardous" in the subset analysis, such as *Hebbal*, *Silk Board*, and *BTM Layout (CPCB)* remained in the same category. This consistency underscores the persistent air quality challenges in these zones and highlights the critical need for focused interventions.
 
 
